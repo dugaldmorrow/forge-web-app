@@ -1,0 +1,19 @@
+{
+  "name": "forge-web-app",
+  "version": "1.1.7",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint src/**/*"
+  },
+  "dependencies": {
+    "@forge/api": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@typescript-eslint/parser": "^8.24.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,15 @@
+modules:
+  webtrigger:
+    - key: webapp-trigger
+      function: webapp-trigger-fn
+      response:
+        type: dynamic
+  function:
+    - key: webapp-trigger-fn
+      handler: webapp.onGet
+app:
+  runtime:
+    name: nodejs22.x
+    memoryMB: 256
+    architecture: arm64
+  id: ari:cloud:ecosystem::app/7a606f5e-4072-4f27-8290-c72a9f1bc2a4
