@@ -66,6 +66,9 @@ const findUpcomingEvents = (): Event[] => {
 const renderStyles = (): string => {
   return `
     <style>
+      :root {
+        color-scheme: light dark;
+      }
       html {
         font-family: Arial, sans-serif;
         font-size: 16px;
@@ -79,7 +82,7 @@ const renderStyles = (): string => {
         margin-right: auto;
       }
       div.event-item {
-        border: 1px solid #ccc;
+        border: 1px solid light-dark(#2C3E5D, #DCDFE4);
         border-radius: 8px;
         margin-bottom: 8px;
       }
@@ -88,8 +91,9 @@ const renderStyles = (): string => {
       }
       div.event-item > .header {
         font-weight: bold;
-        background-color: #f4f5f7;
-        border-bottom: 1px solid #ccc;
+        color: light-dark(#ddd, #333);
+        background-color: light-dark(#2C3E5D, #DCDFE4);
+        border-bottom: 1px solid light-dark(#2C3E5D, #DCDFE4);
       }
       div.event-item .event-title {
        font-weight: bold;
