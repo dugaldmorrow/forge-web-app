@@ -2,7 +2,7 @@
 
 [![Atlassian license](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
 
-This is an example [Forge](https://developer.atlassian.com/platform/forge/) app that displays a macro comprising a world map highlighting the countries identified by the macro configuration options.
+This is an example [Forge](https://developer.atlassian.com/platform/forge/) app that serves a simple web page.
 
 ## Usage
 
